@@ -1,7 +1,15 @@
 package src;
 
 public interface Flyable {
-    void takeOff();
-    void land();
-    void changeHeight();
+    default void takeOff() {
+        System.out.println("Default Go!");
+    }
+
+    default void land() {
+        System.out.println("Default land");
+    }
+
+    default void changeHeight() {
+        System.out.println("Default change height");
+    }
 }
