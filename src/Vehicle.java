@@ -11,6 +11,10 @@ public abstract class Vehicle {
     }
 
 
-    abstract void startEngine();
-    abstract void turnOffEngine();
+    void startEngine() {
+        System.out.println("Vroom!");
+    }
+    void turnOffEngine() {
+        System.out.println("No more vroom..");
+    }
 }

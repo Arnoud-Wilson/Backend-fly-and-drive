@@ -6,15 +6,6 @@ public class Car extends Vehicle implements Driveable{
         super(speed, weight);
     }
 
-    @Override
-    void startEngine() {
-        System.out.println("Vroom!");
-    }
-
-    @Override
-    void turnOffEngine() {
-        System.out.println("No more vroom..");
-    }
 
     @Override
     public void accelarate() {
