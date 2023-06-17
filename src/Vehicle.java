@@ -5,6 +5,12 @@ public abstract class Vehicle {
     float weight;
 
 
+    public Vehicle(int speed, float weight) {
+        this.speed = speed;
+        this.weight = weight;
+    }
+
+
     abstract void startEngine();
     abstract void turnOffEngine();
 }
